@@ -14,8 +14,10 @@ public class YourCart extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 	public String cart;
+	
     @FindBy(css="button[id='checkout']")
     private WebElement checkout;
+	
     @FindBy(xpath="//div[@class='inventory_item_price']")
     private WebElement cartprice;
     
