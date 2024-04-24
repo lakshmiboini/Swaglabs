@@ -13,6 +13,7 @@ public class YourCart extends BaseClass {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
 	public String cart;
 	
     @FindBy(css="button[id='checkout']")
